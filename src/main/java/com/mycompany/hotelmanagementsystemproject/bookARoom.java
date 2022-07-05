@@ -8,6 +8,10 @@ import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import java.time.format.DateTimeFormatter;  
 import java.time.LocalDateTime; 
+import javax.swing.JFrame;
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.util.Scanner; // Import the Scanner class to read text files;
 
 /**
  *
@@ -20,7 +24,7 @@ public class bookARoom extends javax.swing.JFrame {
     roomBook room = new roomBook();
     
     //To get IndexNumber of ListElement
-    int Index;
+    int Index ;
     int SelectedIndex;
     //stores roomName
     String roomName;
@@ -37,18 +41,6 @@ public class bookARoom extends javax.swing.JFrame {
             roomBookInfo.setModel(listModel);
          }
             
-         
-//        for(int i=1 ; i<=100;i++){
-//            
-//                if(i<=10){
-//                    roomName = "Room " + i + " (VIP) " ;
-//                }
-//                else{
-//                    roomName = "Room " + i;
-//                }
-//            listModel.addElement(roomName);
-//            roomBookInfo.setModel(listModel);
-//        }
     }
 
     /**
@@ -220,8 +212,13 @@ public class bookARoom extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        BookingInfo passingRoomInfo = new BookingInfo();
+        passingRoomInfo.bookingInfo[Index] = room.roomNoArray[Index];
+        
         MainPage goBack = new MainPage();
         bookARoom visibility = new bookARoom();
+       JFrame frame = new JFrame(); 
+       
         goBack.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
