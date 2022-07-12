@@ -4,20 +4,15 @@
  */
 
 package com.mycompany.hotelmanagementsystemproject;
-<<<<<<< HEAD
 import java.io.File;
 import java.io.IOException;
 import java.io.FileWriter;
         
         
-=======
-
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
 /**
  *
  * @author raahi
  */
-<<<<<<< HEAD
 
 class roomBook{
    String[] roomNoArray = new String[100];
@@ -91,12 +86,3 @@ public class HotelManagementSystemProject {
 }
 
 
-=======
-public class HotelManagementSystemProject {
-     
-    public static void main(String[] args) {
-        LoginForm run = new LoginForm();
-        run.show();
-    }
-}
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816

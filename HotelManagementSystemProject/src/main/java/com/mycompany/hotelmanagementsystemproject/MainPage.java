@@ -185,13 +185,8 @@ public class MainPage extends javax.swing.JFrame {
 
     private void roomBookingBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_roomBookingBtnActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
          bookARoom roomBooking = new bookARoom();
          roomBooking.setVisible(true);
-=======
-         roomBookingg roomBooking = new roomBookingg();
-         roomBooking.show();
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
          dispose();
     }//GEN-LAST:event_roomBookingBtnActionPerformed
 
@@ -221,7 +216,6 @@ public class MainPage extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(MainPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-<<<<<<< HEAD
   
         /* Create and display the form */
 //        java.awt.EventQueue.invokeLater(new Runnable() {
@@ -229,15 +223,6 @@ public class MainPage extends javax.swing.JFrame {
 //                new MainPage().setVisible(true);
 //            }
 //        });
-=======
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MainPage().setVisible(true);
-            }
-        });
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

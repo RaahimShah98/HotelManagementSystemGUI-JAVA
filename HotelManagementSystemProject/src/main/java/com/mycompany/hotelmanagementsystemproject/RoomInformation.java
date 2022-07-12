@@ -4,16 +4,12 @@
  */
 package com.mycompany.hotelmanagementsystemproject;
 
-<<<<<<< HEAD
 import javax.swing.DefaultListModel;
 
-=======
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
 /**
  *
  * @author raahi
  */
-<<<<<<< HEAD
 class BookingInfo
 {
     String[] bookingInfo= new String[100];
@@ -37,27 +33,17 @@ public class RoomInformation extends javax.swing.JFrame {
 
         DefaultListModel<String> listModel;
 
-=======
-public class RoomInformation extends javax.swing.JFrame {
-
-    CustomerInfo coi = new CustomerInfo();
-
-    
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
     /**
      * Creates new form RoomInformation
      */
     public RoomInformation() {
         initComponents();
-<<<<<<< HEAD
         
          listModel = new DefaultListModel(); //Initiallizing the list model
          for(int i=1 ; i<100;i++){
              listModel.addElement(room.bookingInfo[i]);
             customerInformation.setModel(listModel);
          }
-=======
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
     }
 
     /**
@@ -70,31 +56,15 @@ public class RoomInformation extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-<<<<<<< HEAD
         backToMainPageBtn = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jScrollPane1 = new javax.swing.JScrollPane();
         customerInformation = new javax.swing.JList<>();
-=======
-        jScrollPane1 = new javax.swing.JScrollPane();
-        RoomInformationList = new javax.swing.JList<>();
-        backToMainPageBtn = new javax.swing.JButton();
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 204));
 
-<<<<<<< HEAD
-=======
-        RoomInformationList.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public String getElementAt(int i) { return strings[i]; }
-        });
-        jScrollPane1.setViewportView(RoomInformationList);
-
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
         backToMainPageBtn.setText("BACK");
         backToMainPageBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,7 +72,6 @@ public class RoomInformation extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< HEAD
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         customerInformation.setModel(new javax.swing.AbstractListModel<String>() {
@@ -112,13 +81,10 @@ public class RoomInformation extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(customerInformation);
 
-=======
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -130,33 +96,17 @@ public class RoomInformation extends javax.swing.JFrame {
                             .addComponent(jComboBox1, 0, 410, Short.MAX_VALUE)
                             .addComponent(jScrollPane1))))
                 .addContainerGap(379, Short.MAX_VALUE))
-=======
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(389, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 405, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(375, 375, 375))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(backToMainPageBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(29, 29, 29)
                 .addComponent(backToMainPageBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(80, 80, 80)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 539, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(87, Short.MAX_VALUE))
-=======
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 584, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(144, Short.MAX_VALUE))
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -221,14 +171,9 @@ public class RoomInformation extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< HEAD
     private javax.swing.JButton backToMainPageBtn;
     private javax.swing.JList<String> customerInformation;
     private javax.swing.JComboBox<String> jComboBox1;
-=======
-    private javax.swing.JList<String> RoomInformationList;
-    private javax.swing.JButton backToMainPageBtn;
->>>>>>> 3d7a5e7e68d0aca0c31bc8e0721f0f4d3c712816
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
